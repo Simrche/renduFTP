@@ -1,0 +1,26 @@
+@import "../helpers/variables.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration:  none;
+}
+
+li,
+ul {
+    list-style: none;
+}
+
+a,
+button {
+    cursor: pointer;
+}
+
+img {
+    max-width: $fullWidth;
+    height: auto;
+}

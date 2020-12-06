@@ -1,0 +1,85 @@
+header {
+    background-image: url("../../img/wave.svg");
+    background-repeat: no-repeat;
+    background-position: 100% 0%;
+    height: $fullHeight;
+}
+
+header section {
+    display: flex;
+    justify-content: space-around;
+}
+
+#milieu {
+    margin-top: 45px;
+}
+
+#haut ul {
+    display: flex;
+}
+
+#haut ul li {
+    margin: 0 25px;
+}
+
+// --------------------------------------------------------------------------------------------------------------------------------------
+
+#milieu h2 span {
+    font-size: $grand;
+    font-weight: bold;
+}
+
+#milieu img {
+    max-width: $fullWidth;
+    height: auto;
+}
+
+@media screen and (max-width: 1200px) {
+    header {
+        height: auto;
+    }
+    
+    #milieu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #milieu img {
+        margin-top: 50px;
+    }
+
+    #haut {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #haut ul {
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #haut ul {
+        display: none;
+    }
+
+    #haut div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #milieu a {
+        margin: 25px auto 0 auto;
+    }
+
+    #milieu h2 {
+        font-size: $moyenPetit;
+    }
+
+    #milieu h2 span {
+        font-size: $moyenPetit;
+    }
+}

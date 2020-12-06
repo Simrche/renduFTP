@@ -1,0 +1,66 @@
+// Button
+
+.button {
+    background: $degrade;
+    color: $white;
+    font-family: $poppins;
+    font-weight: $medium;
+    font-size: $tresPetit;
+    padding: 0px 20px;
+    border-radius: 36px;
+    margin-top: 20px;
+    text-align: center;
+    width: 20%;
+    border: none;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &--grandText {
+        @extend .button;
+        font-size: $petit;
+        width: 40%;
+    }
+
+    &--blockButton {
+        @extend .button;
+        width: 30%;
+        height: 30px;
+    }
+
+    &--white {
+        @extend .button;
+        width: 30%;
+        background: $white;
+        border: solid 1px $violet;
+        color: $noir;
+
+        &--normal {
+            @extend .button--white;
+            background: $degrade;
+            color: $white;
+        }
+    }
+}
+
+// Bouton Nav
+
+.navButton {
+    font-family: $poppins;
+    color: $white;
+    font-size: $petit;
+    font-weight: $medium;
+}
+
+// Bouton découvrir plus
+
+.decouvrir {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    box-shadow: $violetClair 0px 15px 20px;
+}

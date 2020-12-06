@@ -1,0 +1,37 @@
+#servicesBlock {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url('../../img/background-service.png');
+    background-repeat: no-repeat;
+    padding-bottom: 300px;
+    background-position: 25% 60%;
+    background-size: 100%;
+}
+
+#servicesBlock div {
+    width: 366px;
+    padding-bottom: 25px;
+    border-radius: 35px;
+    margin: 75px 4%;
+    background-color: $white;
+    background-repeat: no-repeat;
+    background-position: unset;
+    box-shadow: $violetClair 0px 5px 20px;
+}
+
+#servicesBlock img {
+    margin: 25px auto 0 auto;
+}
+
+#servicesBlock p,
+#servicesBlock h4 {
+    text-align: left;
+    margin-left: $marginXL;
+    margin-top: 40px;
+}
+
+#servicesBlock a {
+    margin-left: 60%;
+    margin-top: 25px;
+}

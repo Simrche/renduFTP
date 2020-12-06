@@ -1,0 +1,22 @@
+// VARIABLES
+@import './helpers/variables.scss';
+
+// RESET
+@import './components/reset';
+
+// SECTIONS
+@import './components/home';
+@import './components/header';
+@import './components/whoWeAre';
+@import './components/services';
+@import './components/servicesBlock';
+@import './components/price';
+@import './components/form';
+@import './components/footer';
+
+// Components
+
+@import './components/cta';
+@import './components/div';
+@import './components/title';
+@import './components/paragraphe';

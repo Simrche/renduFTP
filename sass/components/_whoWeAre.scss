@@ -1,0 +1,28 @@
+#whoWeAre {
+    display: flex;
+    height: $sectionHeight;
+    justify-content: space-around;
+}
+
+#whoWeAre article {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url('../../img/background-we-are.png');
+    background-repeat: repeat-x;
+    padding-left: $paddingXL;
+    padding-right: $paddingXL;
+}
+
+@media screen and (max-width: 1200px) {
+    #whoWeAre {
+        display: flex;
+        flex-direction: column-reverse;
+        height: auto;
+    }
+
+    #whoWeAre article {
+        width: 100%;
+    }
+}
